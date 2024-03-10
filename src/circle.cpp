@@ -23,7 +23,7 @@ void Circle::calculateFerence() {
 }
 
 void Circle::setRadius(double radius) {
-    if(radius <= 0.0){
+    if (radius <= 0.0) {
         throw std::invalid_argument("radius is must be positive");
     }
     Circle::radius = radius;
@@ -32,7 +32,7 @@ void Circle::setRadius(double radius) {
 }
 
 void Circle::setArea(double area) {
-    if(area <= 0.0){
+    if (area <= 0.0) {
         throw std::invalid_argument("area is must be positive");
     }
     Circle::area = area;
@@ -41,7 +41,7 @@ void Circle::setArea(double area) {
 }
 
 void Circle::setFerence(double ference) {
-    if(ference <= 0.0){
+    if (ference <= 0.0) {
         throw std::invalid_argument("ference is must be positive");
     }
     Circle::ference = ference;
