@@ -1,6 +1,6 @@
 // Copyright 2024 Stepan Morgachev
-#ifndef ST_2_TASKS_H
-#define ST_2_TASKS_H
+#ifndef INCLUDE_TASKS_H_
+#define INCLUDE_TASKS_H_
 
 double solvePlanetAndRopeTask(double planetRadius, double radiusIncrement);
 
@@ -9,4 +9,4 @@ double solveSwimmingPoolTask(double poolRadius,
                              double costOfCoverage,
                              double fencePrice);
 
-#endif //ST_2_TASKS_H
+#endif //INCLUDE_TASKS_H_
